@@ -141,7 +141,7 @@
       lightboxImg.src = src;
       lightboxImg.alt = alt || '';
       if (lightboxCaption) {
-        lightboxCaption.textContent = alt || '';
+        lightboxCaption.textContent = '';
       }
       lightbox.classList.add('active');
       lightbox.setAttribute('aria-hidden', 'false');
@@ -154,6 +154,9 @@
       lightbox.setAttribute('aria-hidden', 'true');
       document.body.style.overflow = '';
       lightboxImg.src = '';
+      if (lightboxCaption) {
+        lightboxCaption.textContent = '';
+      }
     }
 
     galleryItems.forEach((item) => {
