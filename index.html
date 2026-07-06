@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tathagat Trust — Empowering Youth. Building the Nation.</title>
+  <meta name="description" content="Tathagat Trust is a charitable organization in India dedicated to education, skill development, and upliftment of underprivileged communities across Chhattisgarh, Uttar Pradesh, and Rajasthan.">
+  <meta property="og:title" content="Tathagat Trust — Empowering Youth. Building the Nation.">
+  <meta property="og:description" content="A charitable organization committed to education, skill development, and inclusive growth.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo/tathagat-logo.png">
+  <link rel="icon" type="image/png" href="assets/logo/tathagat-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Serif+Devanagari:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Tathagat Trust Home">
+        <img src="assets/logo/tathagat-logo.png" alt="Tathagat Trust logo — अप्प दीपो भव, Buddha meditating under Bodhi tree" width="56" height="56">
+        <span class="site-logo__text hindi">तथागत<span class="sr-only"> Tathagat Trust</span><small>Trust</small></span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="objectives.html">Objectives &amp; Goals</a></li>
+          <li class="nav-dropdown">
+            <a href="#" class="nav-dropdown__toggle" aria-haspopup="true">Work Areas
+              <svg viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg>
+            </a>
+            <ul class="nav-dropdown__menu" role="menu">
+              <li><a href="work-areas/chhattisgarh.html" role="menuitem">Chhattisgarh</a></li>
+              <li><a href="work-areas/eastern-up.html" role="menuitem">Eastern UP</a></li>
+              <li><a href="work-areas/banaras-bps.html" role="menuitem">Banaras – BPS</a></li>
+            </ul>
+          </li>
+          <li><a href="literary-honours.html">Literary Honours</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <!-- TODO: Integrate donation payment gateway -->
+        <a href="contact.html" class="btn btn--donate" data-donate>Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero__video" autoplay muted loop playsinline disablePictureInPicture poster="assets/images/hero-bodhi.jpg" aria-hidden="true">
+        <source src="assets/images/hero-bodhi.mp4" type="video/mp4">
+      </video>
+      <div class="hero__content">
+        <img src="assets/logo/tathagat-logo.png" alt="Tathagat Trust emblem — तथागत" class="hero__logo reveal" width="180" height="180">
+        <h1 id="hero-title" class="hero__title reveal reveal-delay-1">Empowering Youth. <span class="gold">Building the Nation.</span></h1>
+        <p class="hero__subtitle reveal reveal-delay-2">A charitable organization committed to education, skill development, and inclusive growth.</p>
+        <div class="hero__cta reveal reveal-delay-3">
+          <a href="about.html" class="btn btn--primary">Our Work</a>
+          <a href="contact.html" class="btn btn--outline" data-donate>Support Us</a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+    </section>
+
+    <!-- ABOUT SNAPSHOT -->
+    <section class="section section--white" aria-labelledby="about-snapshot-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__tag">Who We Are</span>
+          <h2 id="about-snapshot-title" class="section-header__title">About Tathagat Trust</h2>
+          <div class="section-header__divider"><span>◆</span></div>
+        </div>
+        <div class="two-col">
+          <div class="content-block reveal">
+            <p>Tathagat Trust is dedicated to empowering youth through skill-based education and inclusive learning, providing quality technical and vocational training to underprivileged and marginalized communities, especially in Naxal-affected regions. The Trust also supports and facilitates the dignified marriage of underprivileged girls every year.</p>
+            <a href="about.html" class="btn btn--outline-dark" style="margin-top: 1rem;">Read Our Full Story</a>
+          </div>
+          <div class="reveal reveal-delay-1">
+            <img src="assets/images/community-1.jpg" alt="Tathagat Trust community outreach program with local youth" loading="lazy" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT STATS -->
+    <section class="stats-strip" aria-label="Impact statistics">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-item__number"><span data-counter="45" data-suffix="%">0%</span></div>
+            <p class="stat-item__label">Girls enrolled at Banaras Public School — 300+ girls receiving free education</p>
+          </div>
+          <div class="stat-item reveal reveal-delay-1">
+            <div class="stat-item__number"><span data-counter="50" data-suffix="%">0%</span></div>
+            <p class="stat-item__label">Seats reserved for girls, differently-abled, widows' dependents &amp; tribal youth (Eastern UP)</p>
+          </div>
+          <div class="stat-item reveal reveal-delay-2">
+            <div class="stat-item__number">XII</div>
+            <p class="stat-item__label">Free education up to Class 12</p>
+          </div>
+          <div class="stat-item reveal reveal-delay-3">
+            <div class="stat-item__number"><span data-counter="3">0</span></div>
+            <p class="stat-item__label">States of operation: Chhattisgarh, Uttar Pradesh, Rajasthan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK AREAS PREVIEW -->
+    <section class="section section--dark" id="work-areas" aria-labelledby="work-areas-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__tag">Where We Work</span>
+          <h2 id="work-areas-title" class="section-header__title">Our Work Areas</h2>
+          <div class="section-header__divider"><span>◆</span></div>
+          <p class="section-header__subtitle">Reaching the most marginalized communities across three states of India</p>
+        </div>
+        <div class="card-grid">
+          <article class="card card--dark reveal">
+            <div class="card__image card__image--map">
+              <picture>
+                <source srcset="assets/images/tathagat-trust-chhattisgarh-operational-map.webp" type="image/webp">
+                <img src="assets/images/tathagat-trust-chhattisgarh-operational-map.jpg" alt="Map of Chhattisgarh districts showing Tathagat Trust operational areas including Raipur, Bastar, Kanker and Dantewada" width="1024" height="682" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Chhattisgarh</h3>
+              <p class="card__text">Operating ITI and schools in naxalite-affected areas with focus on Gond Adivasi youth empowerment and tribal community upliftment.</p>
+              <a href="work-areas/chhattisgarh.html" class="card__link">Learn more →</a>
+            </div>
+          </article>
+          <article class="card card--dark reveal reveal-delay-1">
+            <div class="card__image card__image--map">
+              <picture>
+                <source srcset="assets/images/tathagat-trust-eastern-uttar-pradesh-operational-map.webp" type="image/webp">
+                <img src="assets/images/tathagat-trust-eastern-uttar-pradesh-operational-map.jpg" alt="Map of Eastern Uttar Pradesh highlighting Tathagat Trust service districts including Gorakhpur, Varanasi, Azamgarh and Sonbhadra region" width="1024" height="682" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Eastern Uttar Pradesh</h3>
+              <p class="card__text">Supporting Bawaria, Kol, Vanwasi communities in Sonbhadra and Mirzapur with free, inclusive education and vocational training.</p>
+              <a href="work-areas/eastern-up.html" class="card__link">Learn more →</a>
+            </div>
+          </article>
+          <article class="card card--dark reveal reveal-delay-2">
+            <div class="card__image card__image--map">
+              <picture>
+                <source srcset="assets/images/tathagat-trust-banaras-varanasi-bps-map.webp" type="image/webp">
+                <img src="assets/images/tathagat-trust-banaras-varanasi-bps-map.jpg" alt="Illustrated map of Banaras Varanasi showing Banaras Public School operational area along the Ganges River" width="1024" height="682" loading="lazy" decoding="async">
+              </picture>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Banaras (BPS)</h3>
+              <p class="card__text">CBSE-affiliated Banaras Public School mainstreaming marginalized communities through quality education up to Class XII.</p>
+              <a href="work-areas/banaras-bps.html" class="card__link">Learn more →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section class="partners-strip" aria-labelledby="partners-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__tag">Collaborations</span>
+          <h2 id="partners-title" class="section-header__title">Supporting Partners</h2>
+          <div class="section-header__divider"><span>◆</span></div>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-item reveal">
+            <!-- TODO: Replace with actual Maruti Suzuki logo -->
+            <div class="partner-item__logo" aria-hidden="true">Logo</div>
+            <p class="partner-item__text">Maruti Suzuki India Limited supports Tathagat Trust in Uttar Pradesh under its CSR initiative</p>
+          </div>
+          <div class="partner-item reveal reveal-delay-1">
+            <!-- TODO: Replace with actual Jaguar Foundation logo -->
+            <div class="partner-item__logo" aria-hidden="true">Logo</div>
+            <p class="partner-item__text">The Jaguar Foundation supports Tathagat Trust initiatives in Chhattisgarh.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LITERARY HONOURS TEASER -->
+    <section class="section section--light" aria-labelledby="honours-teaser-title">
+      <div class="container text-center">
+        <div class="section-header reveal">
+          <span class="section-header__tag">Literary Excellence</span>
+          <h2 id="honours-teaser-title" class="section-header__title">Tathagat Trust Literary Honours</h2>
+          <div class="section-header__divider"><span>◆</span></div>
+          <p class="section-header__subtitle">Celebrating Literature | Preserving Languages | Honouring Excellence</p>
+        </div>
+        <p class="reveal" style="max-width: 700px; margin: 0 auto 1.5rem; color: var(--color-text-muted);">Tathagat Trust is also a national literary institution committed to promoting Indian languages and recognising outstanding literary contributions in Hindi and regional languages.</p>
+        <a href="literary-honours.html" class="btn btn--outline-dark reveal">Explore Literary Honours</a>
+      </div>
+    </section>
+
+    <!-- GALLERY PREVIEW -->
+    <section class="section section--white" aria-labelledby="gallery-preview-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-header__tag">In Pictures</span>
+          <h2 id="gallery-preview-title" class="section-header__title">Photo Gallery</h2>
+          <div class="section-header__divider"><span>◆</span></div>
+        </div>
+        <!-- TODO: Replace placeholder images with actual brochure photos -->
+        <div class="gallery-grid reveal">
+          <div class="gallery-item"><img src="assets/images/gallery-01.jpg" alt="Tathagat Trust vocational training students, Chhattisgarh" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-02.jpg" alt="Skill development workshop at Tathagat Trust" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-03.jpg" alt="Community marriage ceremony supported by Tathagat Trust" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-04.jpg" alt="Classroom learning at Tathagat Trust school" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-05.jpg" alt="Literary honours award ceremony" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-06.jpg" alt="Tribal youth career counselling session" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-07.jpg" alt="Sports and co-curricular activities" loading="lazy"></div>
+          <div class="gallery-item"><img src="assets/images/gallery-08.jpg" alt="Community outreach in naxal-affected region" loading="lazy"></div>
+        </div>
+        <div class="text-center" style="margin-top: 2rem;">
+          <a href="gallery.html" class="btn btn--outline-dark reveal">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container">
+        <p class="reveal">"In these regions, education is not merely an intervention — it is a lifeline for social justice, stability, and long-term transformation."</p>
+        <a href="contact.html" class="btn btn--primary reveal">Get Involved</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo/tathagat-logo.png" alt="Tathagat Trust" width="64" height="64">
+          <p class="footer-brand__tagline">Empowering Youth. Building the Nation.</p>
+          <p>A charitable organization committed to education, skill development, and inclusive growth.</p>
+          <div class="footer-social">
+            <!-- TODO: Add real social media URLs -->
+            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+            <a href="#" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.13C5.12 19.59 12 19.59 12 19.59s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.46z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#0e1a0e"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="objectives.html">Objectives &amp; Goals</a></li>
+            <li><a href="literary-honours.html">Literary Honours</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Work Areas</h3>
+          <ul>
+            <li><a href="work-areas/chhattisgarh.html">Chhattisgarh</a></li>
+            <li><a href="work-areas/eastern-up.html">Eastern UP</a></li>
+            <li><a href="work-areas/banaras-bps.html">Banaras – BPS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <!-- TODO: Replace with actual contact details -->
+          <ul>
+            <li><a href="contact.html">[ADDRESS]</a></li>
+            <li><a href="tel:[PHONE]">[PHONE]</a></li>
+            <li><a href="mailto:[EMAIL]">[EMAIL]</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tathagat Trust. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
